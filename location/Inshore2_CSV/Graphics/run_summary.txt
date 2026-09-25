@@ -1,0 +1,6 @@
+WEC Device: 4m_scale_point_a_capture_width_energy_period_matrix.csv
+Annual energy production (MWh): 26.6
+Percent of Total 2024 Port Consumption: , 9.2%
+WEC Device: 4m_scale_rm3_capture_width_energy_period_matrix.csv
+Annual energy production (MWh): 7.2
+Percent of Total 2024 Port Consumption: , 2.5%

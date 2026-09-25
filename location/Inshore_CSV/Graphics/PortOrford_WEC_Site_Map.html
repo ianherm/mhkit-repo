@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bfbb603514ab0471d92eac42da454c86 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bfbb603514ab0471d92eac42da454c86" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bfbb603514ab0471d92eac42da454c86 = L.map(
+                "map_bfbb603514ab0471d92eac42da454c86",
+                {
+                    center: [42.74053585316551, -124.49842283386084],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_bfbb603514ab0471d92eac42da454c86);
+
+            
+
+        
+    
+            var tile_layer_a24568c8fbfb5c82076b2404027de83b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "Map data \u00a9 OpenStreetMap contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a24568c8fbfb5c82076b2404027de83b.addTo(map_bfbb603514ab0471d92eac42da454c86);
+        
+    
+            var marker_700b7f9a578ec7975b12fe42f4c288e4 = L.marker(
+                [42.739394124156874, -124.49889974623157],
+                {
+}
+            ).addTo(map_bfbb603514ab0471d92eac42da454c86);
+        
+    
+            marker_700b7f9a578ec7975b12fe42f4c288e4.bindTooltip(
+                `<div>
+                     Port of Port Orford
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0508cd84039b3b357481b5129cd45c7f = L.marker(
+                [42.736484, -124.4978874],
+                {
+}
+            ).addTo(map_bfbb603514ab0471d92eac42da454c86);
+        
+    
+            var icon_38b3f2b327f77981d9d29ddbe5d5e4f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "th-large",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_af8338cdfaa8cf9087630edcd33e84b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3bd0856772ed5db431f1f1d4f91f2981 = $(`<div id="html_3bd0856772ed5db431f1f1d4f91f2981" style="width: 100.0%; height: 100.0%;"><i> Water depth: ~11 m</i>, <i> Distance from shore: ~0.15 miles</div>`)[0];
+                popup_af8338cdfaa8cf9087630edcd33e84b1.setContent(html_3bd0856772ed5db431f1f1d4f91f2981);
+            
+        
+
+        marker_0508cd84039b3b357481b5129cd45c7f.bindPopup(popup_af8338cdfaa8cf9087630edcd33e84b1)
+        ;
+
+        
+    
+    
+            marker_0508cd84039b3b357481b5129cd45c7f.bindTooltip(
+                `<div>
+                     Inshore WEC Deployment Site
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0508cd84039b3b357481b5129cd45c7f.setIcon(icon_38b3f2b327f77981d9d29ddbe5d5e4f4);
+            
+    
+            var marker_a5b468365272506ca887ba90b23b7679 = L.marker(
+                [42.721487, -124.506283],
+                {
+}
+            ).addTo(map_bfbb603514ab0471d92eac42da454c86);
+        
+    
+            var icon_07dde0bdb0bd3e4121f4d2c65fee9f9f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "yellow",
+  "iconColor": "white",
+  "icon": "th-large",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6116c38a0d89df7c6f5d13581ad9eea1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0eaa3de4dcd3fb96c9d048428e063480 = $(`<div id="html_0eaa3de4dcd3fb96c9d048428e063480" style="width: 100.0%; height: 100.0%;"><i> Water depth: ~31 m</i>, <i> Distance from shore: ~1.25 miles</div>`)[0];
+                popup_6116c38a0d89df7c6f5d13581ad9eea1.setContent(html_0eaa3de4dcd3fb96c9d048428e063480);
+            
+        
+
+        marker_a5b468365272506ca887ba90b23b7679.bindPopup(popup_6116c38a0d89df7c6f5d13581ad9eea1)
+        ;
+
+        
+    
+    
+            marker_a5b468365272506ca887ba90b23b7679.bindTooltip(
+                `<div>
+                     Offshore WEC Deployment Site
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a5b468365272506ca887ba90b23b7679.setIcon(icon_07dde0bdb0bd3e4121f4d2c65fee9f9f);
+            
+</script>
+</html>
