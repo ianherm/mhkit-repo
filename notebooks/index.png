@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_5db5e9604259e6cd70e76d7c8aac5c11 {
+                #map_d3a0ade857fabeba0a5275d5cf3a3165 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -54,14 +54,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_5db5e9604259e6cd70e76d7c8aac5c11" ></div>
+            <div class="folium-map" id="map_d3a0ade857fabeba0a5275d5cf3a3165" ></div>
         
 </body>
 <script>
     
     
-            var map_5db5e9604259e6cd70e76d7c8aac5c11 = L.map(
-                "map_5db5e9604259e6cd70e76d7c8aac5c11",
+            var map_d3a0ade857fabeba0a5275d5cf3a3165 = L.map(
+                "map_d3a0ade857fabeba0a5275d5cf3a3165",
                 {
                     center: [44.613600975457715, -123.74317583354498],
                     crs: L.CRS.EPSG3857,
@@ -73,13 +73,13 @@
 
                 }
             );
-            L.control.scale().addTo(map_5db5e9604259e6cd70e76d7c8aac5c11);
+            L.control.scale().addTo(map_d3a0ade857fabeba0a5275d5cf3a3165);
 
             
 
         
     
-            var tile_layer_244e70327f460240331068ac75fdf101 = L.tileLayer(
+            var tile_layer_5c3b1eb6733fb47b897fa4c28338e226 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -96,34 +96,34 @@
             );
         
     
-            tile_layer_244e70327f460240331068ac75fdf101.addTo(map_5db5e9604259e6cd70e76d7c8aac5c11);
+            tile_layer_5c3b1eb6733fb47b897fa4c28338e226.addTo(map_d3a0ade857fabeba0a5275d5cf3a3165);
         
     
-            var marker_d57b7c2afa8e86875ed5a9c880d63037 = L.marker(
+            var marker_c52d9d9f843e819c35c0e1422b6ec35a = L.marker(
                 [44.669, -124.546],
                 {
 }
-            ).addTo(map_5db5e9604259e6cd70e76d7c8aac5c11);
+            ).addTo(map_d3a0ade857fabeba0a5275d5cf3a3165);
         
     
-        var popup_7d78571f4ba0c64f801ec20808e47c36 = L.popup({
+        var popup_6e50c9a844a6335e6c90b06d295ef392 = L.popup({
   "maxWidth": "100%",
 });
 
         
             
-                var html_a88473b637c8f62e123c69227b27832c = $(`<div id="html_a88473b637c8f62e123c69227b27832c" style="width: 100.0%; height: 100.0%;"><i> Water depth: 160 m</i></div>`)[0];
-                popup_7d78571f4ba0c64f801ec20808e47c36.setContent(html_a88473b637c8f62e123c69227b27832c);
+                var html_be0ee7107b279d708322db3f6950d907 = $(`<div id="html_be0ee7107b279d708322db3f6950d907" style="width: 100.0%; height: 100.0%;"><i> Water depth: 160 m</i></div>`)[0];
+                popup_6e50c9a844a6335e6c90b06d295ef392.setContent(html_be0ee7107b279d708322db3f6950d907);
             
         
 
-        marker_d57b7c2afa8e86875ed5a9c880d63037.bindPopup(popup_7d78571f4ba0c64f801ec20808e47c36)
+        marker_c52d9d9f843e819c35c0e1422b6ec35a.bindPopup(popup_6e50c9a844a6335e6c90b06d295ef392)
         ;
 
         
     
     
-            marker_d57b7c2afa8e86875ed5a9c880d63037.bindTooltip(
+            marker_c52d9d9f843e819c35c0e1422b6ec35a.bindTooltip(
                 `<div>
                      NDBC 46050
                  </div>`,
@@ -133,14 +133,14 @@
             );
         
     
-            var marker_ad6dda06aa40fc2090a1d4ec68fca2d4 = L.marker(
+            var marker_a9ac9961fa743ca6cb136ab5fc12dfa5 = L.marker(
                 [44.69, -124.13472222222222],
                 {
 }
-            ).addTo(map_5db5e9604259e6cd70e76d7c8aac5c11);
+            ).addTo(map_d3a0ade857fabeba0a5275d5cf3a3165);
         
     
-            var icon_a61fd66157e19b34cdc81611f82a2d1c = L.AwesomeMarkers.icon(
+            var icon_fafccfc2d8688e7c45cb585d038ddf71 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -151,7 +151,7 @@
             );
         
     
-            marker_ad6dda06aa40fc2090a1d4ec68fca2d4.bindTooltip(
+            marker_a9ac9961fa743ca6cb136ab5fc12dfa5.bindTooltip(
                 `<div>
                      PACWAVE North
                  </div>`,
@@ -161,17 +161,17 @@
             );
         
     
-                marker_ad6dda06aa40fc2090a1d4ec68fca2d4.setIcon(icon_a61fd66157e19b34cdc81611f82a2d1c);
+                marker_a9ac9961fa743ca6cb136ab5fc12dfa5.setIcon(icon_fafccfc2d8688e7c45cb585d038ddf71);
             
     
-            var marker_e7f82ac72268977a3f02526f199e2383 = L.marker(
+            var marker_fa85d3a0244c926873efdc7e81a3476c = L.marker(
                 [44.58444444444444, -124.2125],
                 {
 }
-            ).addTo(map_5db5e9604259e6cd70e76d7c8aac5c11);
+            ).addTo(map_d3a0ade857fabeba0a5275d5cf3a3165);
         
     
-            var icon_33a22b35f0fddb64aa2f920d8eefa299 = L.AwesomeMarkers.icon(
+            var icon_70ab2b53d7fe7ab83a0ed6ad98d44390 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "red",
   "iconColor": "white",
@@ -182,7 +182,7 @@
             );
         
     
-            marker_e7f82ac72268977a3f02526f199e2383.bindTooltip(
+            marker_fa85d3a0244c926873efdc7e81a3476c.bindTooltip(
                 `<div>
                      PACWAVE South
                  </div>`,
@@ -192,7 +192,7 @@
             );
         
     
-                marker_e7f82ac72268977a3f02526f199e2383.setIcon(icon_33a22b35f0fddb64aa2f920d8eefa299);
+                marker_fa85d3a0244c926873efdc7e81a3476c.setIcon(icon_70ab2b53d7fe7ab83a0ed6ad98d44390);
             
 </script>
 </html>

@@ -3,6 +3,10 @@ This repo was originally created to perform a wave energy assessment for the Por
 I combined programs authored by *Hannah Mankle* and *Andrew Simms, NLR* . *Hannah Mankle* created a Jupyter notebook that uses NREL's MHKiT toolbox to perform resource assessments using data from the MHKiT Hindcast Database.
 *Andrew Simms (NLR)* provided a program that transforms Small-WEC-Tool (SWEC) WEC model power matrices from JSON files to CSVs. I combined both programs to assess annual wave energy potential (flux) at two sites near the Port of Port of Port Orford and forecast power produced by the deployment of two, hypothetical SWEC WEC models.
 
+### Acronyms
+- NDBC: National Data Buoy Center
+- SWDEN: Omnidirectional Wave Spectrum
+
 **Small WEC Tool**: https://apps.openei.org/swec/ 
 
 **Marine and Hydrokinetic Toolkit**: https://mhkit-software.github.io/MHKiT/
