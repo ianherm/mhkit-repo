@@ -4,9 +4,9 @@ I combined programs authored by *Hannah Mankle* and *Andrew Simms, NLR* . *Hanna
 *Andrew Simms (NLR)* provided a program that transforms Small-WEC-Tool (SWEC) WEC model power matrices from JSON files to CSVs. I removed the Small-WEC-Tool repo from the code. 
 
 # Required Python Version
-conda create -n mhkit-env python=3.11 pip
-conda activate mhkit-env
-pip install -r requirements.txt
+- conda create -n mhkit-env python=3.11 pip
+- conda activate mhkit-env
+- pip install -r requirements.txt
 
 ### Acronyms
 - NDBC: National Data Buoy Center
