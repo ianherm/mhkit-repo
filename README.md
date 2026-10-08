@@ -3,7 +3,7 @@ This repo was originally created to perform a wave energy assessment for the Por
 I combined programs authored by *Hannah Mankle* and *Andrew Simms, NLR* . *Hannah Mankle* created a Jupyter notebook that uses NREL's MHKiT toolbox to perform resource assessments using data from the MHKiT Hindcast Database.
 *Andrew Simms (NLR)* provided a program that transforms Small-WEC-Tool (SWEC) WEC model power matrices from JSON files to CSVs. I removed the Small-WEC-Tool repo from the code. 
 
-# Required Python Version
+### Required Python Version
 - conda create -n mhkit-env python=3.11 pip
 - conda activate mhkit-env
 - pip install -r requirements.txt
