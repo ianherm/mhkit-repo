@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_59f1032ad2734bccca4be40a13084be8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_59f1032ad2734bccca4be40a13084be8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_59f1032ad2734bccca4be40a13084be8 = L.map(
+                "map_59f1032ad2734bccca4be40a13084be8",
+                {
+                    center: [28.912614, -95.269769],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_59f1032ad2734bccca4be40a13084be8);
+
+            
+
+        
+    
+            var tile_layer_997e2a50325eeda5c79d0b176e7edb86 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "Map data \u00a9 OpenStreetMap contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_997e2a50325eeda5c79d0b176e7edb86.addTo(map_59f1032ad2734bccca4be40a13084be8);
+        
+    
+            var marker_e2d47d5406e32b89b5f3ab4bce6a0234 = L.marker(
+                [36.885472, -75.888675],
+                {
+}
+            ).addTo(map_59f1032ad2734bccca4be40a13084be8);
+        
+    
+            marker_e2d47d5406e32b89b5f3ab4bce6a0234.bindTooltip(
+                `<div>
+                     Freeport_Entrance
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d9ccb9bef88195191931b349e9170b2c = L.marker(
+                [36.885472, -75.888675],
+                {
+}
+            ).addTo(map_59f1032ad2734bccca4be40a13084be8);
+        
+    
+            var icon_4a6b4e92f3bf949b0ab361914a83df48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_724272d07f754d5a1dd958e2c29a245c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29c09f7788db3a3c4d21ebd317f63079 = $(`<div id="html_29c09f7788db3a3c4d21ebd317f63079" style="width: 100.0%; height: 100.0%;"><i> Water depth: ~14 m</i>, <i> Distance from shore: ~0.25 miles</div>`)[0];
+                popup_724272d07f754d5a1dd958e2c29a245c.setContent(html_29c09f7788db3a3c4d21ebd317f63079);
+            
+        
+
+        marker_d9ccb9bef88195191931b349e9170b2c.bindPopup(popup_724272d07f754d5a1dd958e2c29a245c)
+        ;
+
+        
+    
+    
+            marker_d9ccb9bef88195191931b349e9170b2c.bindTooltip(
+                `<div>
+                     Nearshore WEC Deployment Site
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d9ccb9bef88195191931b349e9170b2c.setIcon(icon_4a6b4e92f3bf949b0ab361914a83df48);
+            
+    
+            var marker_62d346f43b073c798d92870ccf46ff15 = L.marker(
+                [36.885472, -75.888675],
+                {
+}
+            ).addTo(map_59f1032ad2734bccca4be40a13084be8);
+        
+    
+            var icon_2b46ea032aa6a454e3ff8d484b1a5d84 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_18c5635e195dbc1780fd465dbfa87ea3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_242b8e964d296d6bce80caa4ef6ab351 = $(`<div id="html_242b8e964d296d6bce80caa4ef6ab351" style="width: 100.0%; height: 100.0%;"><i> Water depth: ~31 m</i>, <i> Distance from shore: ~1.25 miles</div>`)[0];
+                popup_18c5635e195dbc1780fd465dbfa87ea3.setContent(html_242b8e964d296d6bce80caa4ef6ab351);
+            
+        
+
+        marker_62d346f43b073c798d92870ccf46ff15.bindPopup(popup_18c5635e195dbc1780fd465dbfa87ea3)
+        ;
+
+        
+    
+    
+            marker_62d346f43b073c798d92870ccf46ff15.bindTooltip(
+                `<div>
+                     Offshore WEC Deployment Site
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_62d346f43b073c798d92870ccf46ff15.setIcon(icon_2b46ea032aa6a454e3ff8d484b1a5d84);
+            
+</script>
+</html>

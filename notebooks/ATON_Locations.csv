@@ -1,0 +1,10 @@
+﻿location_name,latitude,longitude,file_name
+Belle,29.071107,-90.227879,/nrel/US_wave/v1.0.1/Gulf_of_Mexico_and_Puerto_Rico/GOM_PR_2010.h5
+Freeport,28.912614,-95.269769,/nrel/US_wave/v1.0.1/Gulf_of_Mexico_and_Puerto_Rico/GOM_PR_2010.h5
+Galveston,29.266923,-94.571306,/nrel/US_wave/v1.0.1/Gulf_of_Mexico_and_Puerto_Rico/GOM_PR_2010.h5
+Desdemona_Sands,46.225134,-123.97398,/nrel/US_wave/West_Coast/West_Coast_wave_2010.h5
+Clatsop_Spit,46.248895,-124.011479,/nrel/US_wave/West_Coast/West_Coast_wave_2010.h5
+Columbia_River,46.185001,-124.183709,/nrel/US_wave/West_Coast/West_Coast_wave_2010.h5
+Chesapeake_Bay_Mouth,36.825459,-75.781913,/nrel/US_wave/Atlantic/Atlantic_wave_2010.h5
+Chesapeake_Bay_Southern,36.872679,-75.868236,/nrel/US_wave/Atlantic/Atlantic_wave_2010.h5
+Cape_Henry,36.885472,-75.888675,/nrel/US_wave/Atlantic/Atlantic_wave_2010.h5

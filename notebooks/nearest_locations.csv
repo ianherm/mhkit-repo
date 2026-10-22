@@ -1,0 +1,10 @@
+location_name,latitude,longitude,file_path,main_folder,secondary_folder,Grid_Index,Nearest_Latitude,Nearest_Longitude,region
+Belle_Pass,29.071107,-90.227879,/nrel/US_wave,/v1.0.1/Gulf_of_Mexico_and_Puerto_Rico,/GOM_PR_,838725,29.0714,-90.227,Gulf
+Freeport_Entrance,28.912614,-95.269769,/nrel/US_wave,/v1.0.1/Gulf_of_Mexico_and_Puerto_Rico,/GOM_PR_,727886,28.9122,-95.269,Gulf
+Galveston_Bay,29.266923,-94.571306,/nrel/US_wave,/v1.0.1/Gulf_of_Mexico_and_Puerto_Rico,/GOM_PR_,1184626,29.2673,-94.572,Gulf
+Desdemona_Sands,46.225134,-123.97398,/nrel/US_wave,/West_Coast,/West_Coast_wave_,474803,46.22610092,-123.9749985,West_Coast
+Clatsop_Spit,46.248895,-124.011479,/nrel/US_wave,/West_Coast,/West_Coast_wave_,417843,46.24819946,-124.0100021,West_Coast
+Columbia_River,46.185001,-124.183709,/nrel/US_wave,/West_Coast,/West_Coast_wave_,306632,46.18569946,-124.1829987,West_Coast
+Chesapeake_Bay_Mouth,36.825459,-75.781913,/nrel/US_wave,/Atlantic,/Atlantic_wave_,1784068,36.82619858,-75.78199768,Atlantic
+Chesapeake_Bay_Southern,36.872679,-75.868236,/nrel/US_wave,/Atlantic,/Atlantic_wave_,1705060,36.87229919,-75.86799622,Atlantic
+Cape_Henry,36.885472,-75.888675,/nrel/US_wave,/Atlantic,/Atlantic_wave_,1687429,36.88579941,-75.88800049,Atlantic
